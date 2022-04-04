@@ -1,0 +1,80 @@
+
+/*header*/
+
+.header-top{
+    height: 70px;
+}
+header .header-icon {
+    padding-left: 10px;
+}
+header .header-top-center input{
+    width: 80%;
+    height: 39.5px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+header .header-top-center i{
+  padding: 9px;
+  border-top: 0.1px solid #ccc;
+  border-right: 0.1px solid #ccc;
+  border-bottom: 0.1px solid #ccc;
+}
+header .header-top-right i{
+  font-size: 1.8rem;
+}
+header .header-top-right i:hover {
+ color: red ;
+ transform: scale(1.2);
+}
+
+/*logo-site*/
+.logo img{
+   width: 200px;   
+}
+.logo img:nth-child(2){
+ display: none; 
+ width:55px;
+ padding-left: 18px;
+ 
+}
+/***menu header-left****/
+header .header-left{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100vh;
+    z-index: 9999;
+    display: none;
+}
+
+header .header-left a{
+    display: block;
+    padding: 10px 8px;
+}
+
+/**** Hover ****/
+header .header-left li:hover{
+   background-color: #efefef;
+   font-weight: bold;
+   font-size: 1.3rem;
+}
+
+
+/* media  */
+@media screen and (max-width:660px) {
+    .logo img:nth-child(1){
+        display: none; 
+       }
+    .logo img:nth-child(2){
+        display: block; 
+       }
+       header .header-left{
+       width: 100%;
+    }
+}
+@media screen and (max-width:490px) {
+    header .header-top-center input{
+        width: 70%;
+       
+    }
+}
+

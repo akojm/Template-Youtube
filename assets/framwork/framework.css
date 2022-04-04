@@ -1,0 +1,197 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Flexbox */
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+/* Alignement horizontal */
+.flex-center-h{
+    justify-content: center;
+}
+/*Alignement vertical*/
+.flex-center-v{
+    align-items: center;
+}
+
+/* centrer un élément axe H & V */
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Répartir des éléments */
+.flex-1{
+flex: 1;
+}
+.flex-2{
+flex: 2;
+}
+.flex-3{
+flex: 3;
+}
+.flex-4{
+flex: 4;
+}
+.flex-5{
+flex: 5;
+}
+
+/* Espace entre les éléments */
+.gap-5{
+    gap:5px;
+}
+.gap-10{
+    gap:10px;
+}
+.gap-15{
+    gap:15px;
+}
+.gap-20{
+    gap:20px;
+}
+
+/*centrer un éllément*/
+.text-center{
+    text-align: center;
+}
+
+/*aligné un élément */
+
+.center-element{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* espace égles entre les éléments*/
+
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+/* Style des inputs */
+
+input, select, textarea{
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: 0.5px solid #ccc;
+    background-color: #efefef;
+    height: 35px;
+}
+
+/* les éléments lien " a " */ 
+
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+/*les éléments de liste */
+ul{
+    margin: 0;
+    cursor: pointer;
+    padding: 0;
+    list-style: none;
+}
+
+/*les boutons*/
+button{
+    cursor: pointer;
+}
+/*element i */
+i{
+    color:#ccc;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/*ombre boite */
+.box{
+    box-shadow: 0px 4px 8px rgb(0 0 0/10%), 0px 12px 18px rgb(0 0 0/10%);
+}
+
+/*position*/
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+
+/*picture */
+.profile-picture img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+/* Paggination */
+.paginate{
+    margin: 20px 0;
+}
+
+.paginate-item{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+.paginate-item.active{
+    background-color: gray;
+}
+/* Adapter la libairie aux différants ecrans*/
+[class$="-xl"]{
+    width: 90%;
+   margin: 20px auto;
+}
+[class$="-m"]{
+    width: 70%;
+   margin: 20px auto;
+}
+
+/* media queries */
+@media screen and (max-width: 1550px) {
+    [class$="-m"]{
+        width: 95%; 
+    }
+}
+@media screen and (max-width: 900px) {
+    [class$="-xl"]{
+        width: 90%; 
+    }
+}
+@media screen and (max-width: 650px) {
+    [class$="-xl"]{
+        width: 95%;
+    }
+}
