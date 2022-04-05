@@ -1,8 +1,7 @@
 
 /*header*/
-
-.header-top{
-    height: 70px;
+header .header-icon i{
+   font-size: 1.8rem;
 }
 header .header-icon {
     padding-left: 10px;
