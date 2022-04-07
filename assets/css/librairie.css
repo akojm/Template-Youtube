@@ -53,3 +53,6 @@ font-size: 3.5rem;
 .librairies-items-2{
     display: none;
 }
+.librairie-event{
+    display: block;
+}

@@ -28,7 +28,6 @@ window.onload = ()=>{
     }
 
     // librairie //
-
     if (paginateRigth) {
       paginateRigth.addEventListener('click', ()=>{
         if (librairieSecond.style.display==="block") {
@@ -53,8 +52,7 @@ window.onload = ()=>{
           numberOne.style.background="gray";
           numberTwo.style.background="red";
         }
-      })
-      
+      })     
     } 
     
 
