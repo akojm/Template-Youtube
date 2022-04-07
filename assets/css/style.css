@@ -25,6 +25,12 @@ header .header-top-right i:hover {
  color: red ;
  transform: scale(1.2);
 }
+header .header-top{
+    width: 100%;
+    top: 0;
+    z-index: 600;
+    background-color:white;
+}
 
 /*logo-site*/
 .logo img{
@@ -41,7 +47,8 @@ header .header-left{
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 100vh;
-    z-index: 9999;
+    top: 60px;
+    z-index: 999;
     display: none;
 }
 

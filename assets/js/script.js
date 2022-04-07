@@ -2,20 +2,20 @@
 window.onload = ()=>{
 
     const iconBar =document.querySelector("#icon-bar");
-    const navLeft=document.querySelector("#nav-left");
+    const menu=document.querySelector("#menu");
     
     if (iconBar) {
         iconBar.addEventListener('click', ()=>{
-          if(navLeft.style.display==="block"){
-              navLeft.style.display="none";
+          if(menu.style.display==="block"){
+              menu.style.display="none";
           } else {
-            navLeft.style.display="block";
+            menu.style.display="block";
           }
         })  
     }
-    if (navLeft) {
-        navLeft.addEventListener('mouseleave', ()=>{
-                navLeft.style.display="none";         
+    if (menu) {
+        menu.addEventListener('mouseleave', ()=>{
+                menu.style.display="none";         
         })   
     }
 
