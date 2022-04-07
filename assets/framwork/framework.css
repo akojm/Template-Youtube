@@ -72,15 +72,14 @@ flex: 5;
 }
 
 /*aligné un élément */
-
 .center-element{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-/* espace égles entre les éléments*/
 
+/* espace égles entre les éléments*/
 .space-between{
     justify-content: space-between;
 }
@@ -88,8 +87,8 @@ flex: 5;
     justify-content: space-around;
 }
 
-/* Style des inputs */
 
+/* Style des inputs */
 input, select, textarea{
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -164,7 +163,6 @@ i{
     background-color: red;
     font-size: 1.8rem;
     color: white;
-    cursor: pointer;
 }
 .paginate-item.active{
     background-color: gray;

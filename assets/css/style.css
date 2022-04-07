@@ -1,5 +1,5 @@
 
-/*header*/
+/* header */
 header .header-icon i{
    font-size: 1.8rem;
 }
@@ -42,7 +42,7 @@ header .header-top{
  padding-left: 18px;
  
 }
-/***menu header-left****/
+/*menu header-left*/
 header .header-left{
     background-color: rgb(255, 255, 255);
     width: 300px;
@@ -57,7 +57,7 @@ header .header-left a{
     padding: 10px 8px;
 }
 
-/**** Hover ****/
+/* Hover */
 header .header-left li:hover{
    background-color: #efefef;
    font-weight: bold;

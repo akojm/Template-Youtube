@@ -1,4 +1,4 @@
- /**** librairie ****/
+ /* librairie */
 .container-home{
     margin-top: 70px;
 }
@@ -48,11 +48,8 @@ font-size: 3.5rem;
    font-weight:bold;
 }
 
-/**** librairie 2 ****/
 
+/* librairie-2 */
 .librairies-items-2{
     display: none;
-}
-.librairie-event{
-    display: block;
 }
