@@ -47,3 +47,9 @@ font-size: 3.5rem;
    font-size: 1.1rem;
    font-weight:bold;
 }
+
+/**** librairie 2 ****/
+
+.librairies-items-2{
+    display: none;
+}
