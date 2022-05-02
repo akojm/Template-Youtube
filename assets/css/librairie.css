@@ -48,6 +48,10 @@ font-size: 3.5rem;
    font-weight:bold;
 }
 
+#paginate-left, #paginate-right{
+cursor:pointer
+}
+
 
 /* librairie-2 */
 .librairies-items-2{
